@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.unhide_after_xl_scrn{
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .hide_after_xl_scrn{
+        display: none;
+    }
+    .unhide_after_xl_scrn{
+        display: inline;
+    }
+}

@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    .carouselTabsFontSize {
+        font-size: 18px;
+    }
+
+    .carouselTabsImageSize {
+        width: 15px;
+        height: 15px;
+    }
+}
