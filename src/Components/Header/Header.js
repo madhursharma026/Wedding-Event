@@ -33,16 +33,16 @@ export default function Header() {
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li>
-                                            <Link to='/link1' className='nav-link'>Link 1</Link>
+                                            <Link to='/link1' className='nav-link p-2'>Link 1</Link>
                                         </li>
                                         <li>
-                                            <Link to='/link2' className='nav-link'>Link 2</Link>
+                                            <Link to='/link2' className='nav-link p-2'>Link 2</Link>
                                         </li>
                                         <li>
-                                            <Link to='/link3' className='nav-link'>Link 3</Link>
+                                            <Link to='/link3' className='nav-link p-2'>Link 3</Link>
                                         </li>
                                         <li>
-                                            <Link to='/link4' className='nav-link'>Link 4</Link>
+                                            <Link to='/link4' className='nav-link p-2'>Link 4</Link>
                                         </li>
                                     </ul>
                                 </li>

@@ -24,13 +24,13 @@ function CarouselTabs() {
                     </p>
                     <div>
                         <div className="row bg-light">
-                            <Link to="/" className="col p-2" style={{ background: "white", color: "black", textDecoration: "none" }}>
+                        <Link to="/" className="col p-2" style={{ background: "#334B62", color: "white", textDecoration: "none" }}>
                                 <h4 className='carouselTabsFontSize'><img src={weddingIcon} alt="#ImageNotFound" className='carouselTabsImageSize' /> Wedding</h4>
                             </Link>
                             <Link to="/homepage_party" className="col p-2" style={{ background: "#334B62", color: "white", textDecoration: "none" }}>
                                 <h4 className='carouselTabsFontSize'><img src={partyIcon} alt="#ImageNotFound" className='carouselTabsImageSize' /> Party</h4>
                             </Link>
-                            <Link to="/homepage_meeting" className="col p-2" style={{ background: "#334B62", color: "white", textDecoration: "none" }}>
+                            <Link to="/homepage_meeting" className="col p-2" style={{ background: "white", color: "black", textDecoration: "none" }}>
                                 <h4 className='carouselTabsFontSize'><img src={meetingIcon} alt="#ImageNotFound" className='carouselTabsImageSize' /> Meeting</h4>
                             </Link>
                             <>

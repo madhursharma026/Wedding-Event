@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Homepage from "./Components/Homepage/Homepage";
+import HomepageMeeting from './Components/HomepageMeeting/HomepageMeeting';
+import HomepageParty from './Components/HomepageParty/HomepageParty';
 
 function App() {
   return (
@@ -8,11 +10,11 @@ function App() {
         <Route exact path="/">
           <Homepage />
         </Route>
-        <Route exact path="/party">
-          <Homepage />
+        <Route exact path="/homepage_party">
+          <HomepageParty />
         </Route>
-        <Route exact path="/meeting">
-          <Homepage />
+        <Route exact path="/homepage_meeting">
+          <HomepageMeeting />
         </Route>
       </Router>
     </>
