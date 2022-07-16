@@ -1,0 +1,9 @@
+@media (min-width: 767px) {
+    .col_data_2{
+        border-left: 1px solid #e0dede;
+        border-right: 1px solid #e0dede;
+    }
+    .col_data_3{
+        border-right: 1px solid #e0dede;
+    }
+}
