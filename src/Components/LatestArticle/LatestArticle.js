@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom'
+import ArticleImg1 from './ArticleImg/ArticleImg1.jpg'
+import ArticleImg2 from './ArticleImg/ArticleImg2.jpg'
+import ArticleImg3 from './ArticleImg/ArticleImg3.jpg'
 
 function LatestArticle() {
     return (
@@ -17,7 +20,7 @@ function LatestArticle() {
             <div className="row">
                 <div className="col-12 col-sm-6 col-md-4 mt-4" style={{ overflow: "hidden" }}>
                     <div class="card">
-                        <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-02-620x480.jpg" class="card-img-top" alt="#ImgNotFound" />
+                        <img src={ArticleImg1} class="card-img-top" alt="#ImgNotFound" />
                         <div class="card-body">
                             <Link to="/" style={{ textDecoration: "none", color: "black" }}>Catering</Link>
                             &emsp;
@@ -29,7 +32,7 @@ function LatestArticle() {
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 mt-4" style={{ overflow: "hidden" }}>
                     <div class="card">
-                        <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-620x480.jpg" class="card-img-top" alt="#ImgNotFound" />
+                        <img src={ArticleImg2} class="card-img-top" alt="#ImgNotFound" />
                         <div class="card-body">
                             <Link to="/" style={{ textDecoration: "none", color: "black" }}>Catering</Link>
                             &emsp;
@@ -41,7 +44,7 @@ function LatestArticle() {
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 mt-4" style={{ overflow: "hidden" }}>
                     <div class="card">
-                        <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/postslider-3-620x480.jpg" class="card-img-top" alt="#ImgNotFound" />
+                        <img src={ArticleImg3} class="card-img-top" alt="#ImgNotFound" />
                         <div class="card-body">
                             <Link to="/" style={{ textDecoration: "none", color: "black" }}>Catering</Link>
                             &emsp;

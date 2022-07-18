@@ -1,4 +1,5 @@
 import './Feedback.css'
+import Profile from './Profile/profile.jpg'
 
 function Feedback() {
     return (
@@ -9,7 +10,7 @@ function Feedback() {
                 <div className="row">
                     <div className="col-sm-6 pt-5" style={{ paddingLeft: "40px" }}>
                         <div className="card flex-row" style={{ borderLeft: "5px solid #c78665", borderRadius: "0" }}>
-                            <img className="mt-5" src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/review-four.jpg" style={{ borderRadius: "100%", height: "70px", marginLeft: "-35px" }} />
+                            <img className="mt-5" src={Profile} style={{ borderRadius: "100%", height: "70px", marginLeft: "-35px" }} />
                             <div className="card-body">
                                 <i className="fa fa-quote-left" style={{ fontSize: "60px", color: "#c78665" }}></i>
                                 <div className="card-body">
@@ -22,7 +23,7 @@ function Feedback() {
                     </div>
                     <div className="col-sm-6 pt-5" style={{ paddingLeft: "40px" }}>
                         <div className="card flex-row" style={{ borderLeft: "5px solid #c78665", borderRadius: "0" }}>
-                            <img className="mt-5" src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/review-four.jpg" style={{ borderRadius: "100%", height: "70px", marginLeft: "-35px" }} />
+                            <img className="mt-5" src={Profile} style={{ borderRadius: "100%", height: "70px", marginLeft: "-35px" }} />
                             <div className="card-body">
                                 <i className="fa fa-quote-left" style={{ fontSize: "60px", color: "#c78665" }}></i>
                                 <div className="card-body">

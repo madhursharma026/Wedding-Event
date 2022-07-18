@@ -1,5 +1,8 @@
 import './LatestWeddingProject.css'
-import { Link } from 'react-router-dom'
+import Img1 from './Images/Img1.jpg'
+import Img2 from './Images/Img2.jpg'
+import Img3 from './Images/Img3.jpg'
+import Img4 from './Images/Img4.jpg'
 
 function LatestWeddingProject() {
     return (
@@ -19,28 +22,28 @@ function LatestWeddingProject() {
             </div>
             <div className="row">
                 <div className="col-12 col-sm-6 col-md-3 project_img img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
-                    <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/project3-770x770.jpg" alt="#Imgnotfound" className='w-100 project_img_col' />
+                    <img src={Img1} alt="#Imgnotfound" className='w-100 project_img_col' />
                     <div class="image_data">
                         <h2 class="image_data_content">Wedding Bells</h2>
                         <h6 class="image_data_content">Catering, Stories</h6>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 project_img img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
-                    <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/gallery-two-770x770.jpg" alt="#Imgnotfound" className='w-100 project_img_col' />
+                    <img src={Img2} alt="#Imgnotfound" className='w-100 project_img_col' />
                     <div class="image_data">
                         <h2 class="image_data_content">Best Florists</h2>
                         <h6 class="image_data_content">Decorate, Planning</h6>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 project_img img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
-                    <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-01-770x770.jpg" alt="#Imgnotfound" className='w-100 project_img_col' />
+                    <img src={Img3} alt="#Imgnotfound" className='w-100 project_img_col' />
                     <div class="image_data">
                         <h2 class="image_data_content">Bride & Groom</h2>
                         <h6 class="image_data_content">Catering</h6>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-3 project_img img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
-                    <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/project2-770x770.jpg" alt="#Imgnotfound" className='w-100 project_img_col' />
+                    <img src={Img4} alt="#Imgnotfound" className='w-100 project_img_col' />
                     <div class="image_data">
                         <h2 class="image_data_content">Photo Memories</h2>
                         <h6 class="image_data_content">Catering, Planning</h6>

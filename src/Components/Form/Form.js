@@ -1,4 +1,5 @@
 import './Form.css'
+import rightSideImg from './rightSideImg/rightSideImg.jpg'
 
 function Form() {
     return (
@@ -48,7 +49,7 @@ function Form() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img className="imgSize" src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/col-bgimage-4.jpg" alt="#ImgNotFound" style={{ borderTop: "20px solid #C78665" }} />
+                        <img className="imgSize" src={rightSideImg} alt="#ImgNotFound" style={{ borderTop: "20px solid #C78665" }} />
                     </div>
                 </div>
             </div>

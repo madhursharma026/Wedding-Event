@@ -1,5 +1,8 @@
 import './Member.css'
 import { Link } from 'react-router-dom'
+import profile1 from './Profile/profile1.jpg'
+import profile2 from './Profile/profile2.jpg'
+import profile3 from './Profile/profile3.jpg'
 
 function Member() {
     return (
@@ -21,7 +24,7 @@ function Member() {
                 <div className="row">
                     <div className="col-12 col-sm-6 col-md-4 member_project_img member-img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
                         <div class="card">
-                            <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/09/team01-450x500.jpg" class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
+                            <img src={profile1} class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
                             <div class="card-body px-4">
                                 <p className='text-muted' style={{ fontSize: "13px" }}>Wedding Planner</p>
                                 <div className="row">
@@ -46,7 +49,7 @@ function Member() {
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 member_project_img member-img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
                         <div class="card">
-                            <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/09/team02-450x500.jpg" class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
+                            <img src={profile2} class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
                             <div class="card-body px-4">
                                 <p className='text-muted' style={{ fontSize: "13px" }}>Graphics Designer</p>
                                 <div className="row">
@@ -71,7 +74,7 @@ function Member() {
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 member_project_img member-img-hover-zoom--zoom-n-rotate mt-4" style={{ overflow: "hidden" }}>
                         <div class="card">
-                            <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/09/team03-450x500.jpg" class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
+                            <img src={profile3} class="card-img-top w-100 member_project_img_col" alt="#ImgNotFound" />
                             <div class="card-body px-4">
                                 <p className='text-muted' style={{ fontSize: "13px" }}>Wedding Stylish</p>
                                 <div className="row">

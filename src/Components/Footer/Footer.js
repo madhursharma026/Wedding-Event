@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
+import logoFooter from './Logo/logo-footer.png'
+import logoIcons from './Logo/logo-icons.jpg'
 
 function Footer() {
     return (
         <div style={{ background: "#ECF4F6" }}>
             <div className='container-lg'>
                 <div className="text-center py-4">
-                    <img src="http://wedco.themetechmount.net/wp-content/uploads/2020/09/logo-footer.png" alt="#ImgNotFound" />
+                    <img src={logoFooter} alt="#ImgNotFound" />
                 </div>
                 <hr />
                 <div className="row">
@@ -60,12 +62,12 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 pt-5">
                         <h4 className='pb-3'>Instagram Gallery</h4>
                         <div className="row">
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
-                            <div className="col-4 p-0"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/10/post-03-150x150.jpg" alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
+                            <div className="col-4 p-0"><img src={logoIcons} alt="#ImgNotFound" className='w-100 p-1' /></div>
                         </div>
                     </div>
                 </div>

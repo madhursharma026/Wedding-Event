@@ -1,4 +1,7 @@
-
+import logo1 from './Logo/logo1.png'
+import logo2 from './Logo/logo2.png'
+import logo3 from './Logo/logo3.png'
+import logo4 from './Logo/logo4.png'
 
 function OurClients() {
     return (
@@ -7,10 +10,10 @@ function OurClients() {
                 <div className="py-5 container-md text-center">
                     <h1 className="pb-3"><b><u>Our Clients</u></b></h1>
                     <div className="row">
-                        <div className="col-sm-6 col-lg-3"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/client-004.png" alt="#ImgNotFound" /></div>
-                        <div className="col-sm-6 col-lg-3"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/client-003.png" alt="#ImgNotFound" /></div>
-                        <div className="col-sm-6 col-lg-3"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/client-002.png" alt="#ImgNotFound" /></div>
-                        <div className="col-sm-6 col-lg-3"><img src="http://wedco.themetechmount.net/wp-content/uploads/2020/07/client-001.png" alt="#ImgNotFound" /></div>
+                        <div className="col-sm-6 col-lg-3"><img src={logo1} alt="#ImgNotFound" /></div>
+                        <div className="col-sm-6 col-lg-3"><img src={logo2} alt="#ImgNotFound" /></div>
+                        <div className="col-sm-6 col-lg-3"><img src={logo3} alt="#ImgNotFound" /></div>
+                        <div className="col-sm-6 col-lg-3"><img src={logo4} alt="#ImgNotFound" /></div>
                     </div>
                 </div>
             </div>

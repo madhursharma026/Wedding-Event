@@ -1,5 +1,6 @@
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Logo from './Logo/Logo.png'
 import React, { useEffect, useState } from "react";
 
 export default function Header() {
@@ -17,7 +18,8 @@ export default function Header() {
         <>
             <nav className="navbar navbar-expand-xl fixed-top py-3" style={{ backgroundColor: `${headerChangeColor ? "white" : "transparent"}`, color: `${headerChangeColor ? "black" : "white"}` }}>
                 <div className="container-xl px-xl-5">
-                    <Link to='/' className='navbar-brand' style={{ color: `${headerChangeColor ? "black" : "white"}`, fontSize:"24px" }}><b>Navbar</b></Link>
+                    {/* <Link to='/' className='navbar-brand' style={{ color: `${headerChangeColor ? "black" : "white"}`, fontSize:"24px" }}>{<b>Navbar</b>}</Link> */}
+                    <Link to='/' className='navbar-brand' style={{ color: `${headerChangeColor ? "black" : "white"}`, fontSize:"24px" }}><img src={Logo} alt="#ImgNotFound" /></Link>
                     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
