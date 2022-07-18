@@ -1,0 +1,8 @@
+@media (min-width: 767px) {
+    .whatsapp_side {
+        text-align: right;
+    }
+    .skype_side {
+        text-align: left;
+    }
+}

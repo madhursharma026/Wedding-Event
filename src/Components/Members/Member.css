@@ -1,0 +1,29 @@
+.member-img-hover-zoom--zoom-n-rotate .member_project_img_col {
+    transition: transform .5s ease-in-out;
+}
+
+.member-img-hover-zoom--zoom-n-rotate:hover .member_project_img_col {
+    transform: scale(1.05);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 1;
+}
+
+.member-project_img {
+    position: relative;
+}
+
+.member_project_img_col {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.member-project_img:hover .member_project_img_col {
+    opacity: 1;
+}
+
+
